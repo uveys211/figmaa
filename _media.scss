@@ -1,0 +1,32 @@
+@media(max-width:768px) {
+#header{
+    .logo{
+        opacity: 0;
+    }
+    .nav-right{
+        opacity: 0;
+    }
+    .res-icon{
+        opacity: 1;
+    }
+}
+
+#body{
+    .box-right{
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .box-left{
+        text-align: center;
+        a{
+            margin:auto
+        }
+        p{
+            margin: auto;
+        }
+    }
+}
+#footer{
+    opacity: 0;
+    visibility: hidden;
+}
+}
